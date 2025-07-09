@@ -14,7 +14,7 @@ The scraper was initially written manually and later optimized with AI to behave
   - `nodriver` as a fallback headless browser
   - Randomized user agents with `fake_useragent`
   - Random delays, scrolling, and page loads
-- Searches for various iPhone models across different item conditions and pages
+- Searches for various phone models across different item conditions and pages
 
 ### 🗃️ PostgreSQL Integration
 - Data is saved directly into a local PostgreSQL database using a custom function `add_a_record()`
@@ -30,19 +30,19 @@ The scraper was initially written manually and later optimized with AI to behave
 ---
 
 ## 📁 Project Structure
-📦 Ebay_FLAGSHIP_Project/
-├── .venv/ # Virtual environment (excluded via .gitignore)
-├── pycache/ # Python cache files
-├── .ipynb_checkpoints/ # Jupyter auto-saves
-├── latest_logs/ # Optional logging
-├── cleaning_scrapped_data.ipynb # Notebook for data cleaning
-├── clean_phones.csv # Final cleaned dataset
-├── products.csv # Raw scraped dataset from PostgreSQL
-├── database.py # PostgreSQL setup and insert logic
-├── test_webscrapper_for_Ebay.py # Initial or testing scraper
-├── libraries_requirment.txt # Required dependencies
-├── .gitignore
-├── README.md
+📦 Ebay_FLAGSHIP_Project/<br>
+├── .venv/ # Virtual environment (excluded via .gitignore)<br>
+├── pycache/ # Python cache files<br>
+├── .ipynb_checkpoints/ # Jupyter auto-saves<br>
+├── latest_logs/ # Optional logging<br>
+├── cleaning_scrapped_data.ipynb # Notebook for data cleaning<br>
+├── clean_phones.csv # Final cleaned dataset<br>
+├── products.csv # Raw scraped dataset from PostgreSQL<br>
+├── database.py # PostgreSQL setup and insert logic<br>
+├── test_webscrapper_for_Ebay.py # Initial or testing scraper<br>
+├── libraries_requirment.txt # Required dependencies<br>
+├── .gitignore<br>
+├── README.md<br>
 
 
 ---
