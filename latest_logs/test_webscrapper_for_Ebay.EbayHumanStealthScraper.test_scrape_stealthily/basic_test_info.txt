@@ -1,0 +1,45 @@
+test_webscrapper_for_Ebay.py::EbayHumanStealthScraper::test_scrape_stealthily
+--------------------------------------------------------------------
+Last Page: https://www.ebay.com/sch/i.html?_nkw=gucci+purse&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=1000&_pgn=2
+ Duration: 53.75s
+  Browser: Chrome 136.0.7103.114
+   Driver: chromedriver 136.0.7103.94
+Timestamp: 1747733916  (Unix Timestamp)
+     Date: Tuesday, 20 May 2025
+     Time: 2:38:36 PM  (Pakistan Standard Time, UTC+05:00)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\HP\Documents\DATA_ANALYST\Ebay_FLAGSHIP_Project\test_webscrapper_for_Ebay.py", line 37, in test_scrape_stealthily
+    self.execute_script(f"window.scrollTo(0, {scroll_position});")
+  File "C:\Users\HP\Documents\DATA_ANALYST\Ebay_FLAGSHIP_Project\.venv\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 3419, in execute_script
+    return self.driver.execute_script(script, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\DATA_ANALYST\Ebay_FLAGSHIP_Project\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 547, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\DATA_ANALYST\Ebay_FLAGSHIP_Project\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\HP\Documents\DATA_ANALYST\Ebay_FLAGSHIP_Project\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: script timeout
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF60867CF65+75717]
+	GetHandleVerifier [0x00007FF60867CFC0+75808]
+	(No symbol) [0x00007FF608448DCC]
+	(No symbol) [0x00007FF6084F062E]
+	(No symbol) [0x00007FF6084C737A]
+	(No symbol) [0x00007FF6084EF39C]
+	(No symbol) [0x00007FF6084C7153]
+	(No symbol) [0x00007FF608490421]
+	(No symbol) [0x00007FF6084911B3]
+	GetHandleVerifier [0x00007FF60897D74D+3223469]
+	GetHandleVerifier [0x00007FF608977CF2+3200338]
+	GetHandleVerifier [0x00007FF608995B23+3322755]
+	GetHandleVerifier [0x00007FF608696A3A+180890]
+	GetHandleVerifier [0x00007FF60869E13F+211359]
+	GetHandleVerifier [0x00007FF6086852B4+109332]
+	GetHandleVerifier [0x00007FF608685462+109762]
+	GetHandleVerifier [0x00007FF60866BA79+4825]
+	BaseThreadInitThunk [0x00007FFC495A7374+20]
+	RtlUserThreadStart [0x00007FFC4A8FCC91+33]
